@@ -24,11 +24,10 @@ input.empty {
 }
 
 .storyphoto {
-  width: 60px;
-  height: 60px;
+  width: 56px; /** 60px changed to 56px **/
+  height: 56px; /** 60px changed to 56px **/
   border-radius: 50%;
   border: 2px solid rgb(238, 39, 82);
-  margin-right: 7px;
 }
 
 .storytext {
@@ -51,6 +50,7 @@ input.empty {
 
 body {
   padding-top: 70px;
+  background: #FAFAFA;
 }
 
 nav {
@@ -63,4 +63,8 @@ nav {
 
 .middlearea {
   max-height: 200px !important;
+}
+
+#sticky-sidebar {
+  position: fixed;
 }
